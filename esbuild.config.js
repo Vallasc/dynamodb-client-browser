@@ -3,7 +3,7 @@ const esbuild = require('esbuild');
 esbuild.build({
   entryPoints: ['./index.js'],
   bundle: true,
-  outfile: './bundle.js',
+  outfile: './dist/bundle.min.js',
   target: ['es2020'],
   platform: 'browser',
   globalName: 'AWS',
